@@ -1,7 +1,7 @@
 # About
 This project was used for front-end training in TaskForce. Everybody can use it for inspiration but these files are primary intended for participants of training for further study.
 
-**Licence:** (The MIT Licence)[https://github.com/akarienta/iigame/blob/master/LICENSE.md]
+**License:** [The MIT License](https://github.com/akarienta/taskforce-training/blob/master/LICENSE.md)
 
 ## Project kick off and Gulp installation
  1. Creation of empty project
@@ -17,3 +17,13 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  5. [Semver](http://semver.org) introduction, [difference between tilda (~) and caret (^)](https://nodesource.com/blog/semver-tilde-and-caret)
  6.  The first Gulp task
  7. Package `gulp-server-livereload` addition, work with documentation, `index.html` creation, image addition, livereload demonstration
+
+## Bower and AngularJS installation
+ 1. Installation of [Bower](http://bower.io)
+ 2. Differences between `npm` and `bower`
+ 3. Bower kick off with `bower init`
+ 4. [AngularJS](https://angularjs.org) installation
+ 5. Script include order importance
+ 6. [John Papa code style](https://github.com/johnpapa/angular-styleguide), `app.module.js` creation and app integration, addtion of `bower_components` to server
+ 7. WebStorm setup
+ 8. Checking app sutup in browser, console and development tools in browser

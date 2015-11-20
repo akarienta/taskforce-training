@@ -4,7 +4,7 @@ var gulp = require('gulp');
 var $ = require('gulp-load-plugins')({lazy: true});
 
 gulp.task('serve', function () {
-    gulp.src('src')
+    gulp.src(['src', 'bower_components'])
         .pipe($.serverLivereload({
             host: 'localhost',
             port: 9000,

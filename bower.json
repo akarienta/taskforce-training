@@ -4,10 +4,7 @@
   "description": "Example project for front-end training in TaskForce.",
   "license": "MIT",
   "homepage": "https://github.com/akarienta/taskforce-training",
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-load-plugins": "^1.1.0",
-    "gulp-server-livereload": "^1.5.4",
-    "gulp-util": "^3.0.7"
+  "dependencies": {
+    "angular": "1.3.15"
   }
 }
