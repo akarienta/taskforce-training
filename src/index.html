@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>TaskForce Training</title>
 </head>
-<body ng-app="angular-training">
+<body ng-app="tf-training" ng-controller="HomeController">
 
-<h1>Helo Gulp!</h1>
+<h1>{{title}}</h1>
 <img src="images/gulp.png" alt="Gulp Logo"/>
 
 <!-- bower -->
@@ -14,6 +14,8 @@
 
 <!-- app -->
 <script src="app.module.js"></script>
+<script src="home/home.module.js"></script>
+<script src="home/home.controller.js"></script>
 
 </body>
 </html>

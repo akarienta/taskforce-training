@@ -1,5 +1,5 @@
 (function() {
     'use strict';
 
-    angular.module('angular-training', []);
+    angular.module('tf-training', []);
 })();

@@ -27,3 +27,7 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  6. [John Papa code style](https://github.com/johnpapa/angular-styleguide), `app.module.js` creation and app integration, addtion of `bower_components` to server
  7. WebStorm setup
  8. Checking app sutup in browser, console and development tools in browser
+
+## The first controller
+ 1. Creation of `home.module.js` and `home.controller.js` files, integration into the project
+ 2. [Differnce between "controller as" and "$scope" syntax](http://codetunnel.io/angularjs-controller-as-or-scope)
