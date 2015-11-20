@@ -3,7 +3,17 @@
 
     angular
         .module('tf-training', [
-            'tf-training.home'
-        ]);
+            'ui.router',
+            'tf-training.home',
+            'tf-training.about',
+            'tf-training.error'
+        ])
+        .config(config);
+
+    function config($urlRouterProvider) {
+        $urlRouterProvider
+            .when('/', '/home')
+            .otherwise('/error/404');
+    }
 
 })();

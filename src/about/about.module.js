@@ -2,17 +2,17 @@
     'use strict';
 
     angular
-        .module('tf-training.home', [
+        .module('tf-training.about', [
             'ui.router'
         ])
         .config(config);
 
     function config($stateProvider) {
-        $stateProvider.state('home', {
-            url: '/home',
-            controller: 'HomeController',
+        $stateProvider.state('about', {
+            url: '/about',
+            controller: 'AboutController',
             controllerAs: 'vm',
-            templateUrl: 'home/home.html'
+            templateUrl: 'about/about.html'
         });
     }
 

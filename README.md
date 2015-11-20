@@ -35,3 +35,11 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  4. Building, security, speed etc. - example of tools: `ng-annotate`, `gulp-minify`, `gulp-uglify`, `gulp-concat` and `wiredep`
  5. Private variables, functions, private functions, closures, [JSDoc](http://usejsdoc.org)
  6. [JavaScript automatic type conversion](http://www.sitepoint.com/automatic-type-conversion), difference between `==` and `===`
+
+## Router
+ 1. [`angular-route` vs. `angular-ui-router`](http://stackoverflow.com/a/21024270/3780766)
+ 2. Installation of `angular-ui-router`
+ 3. Adding router to the app - script, module, template, `ui-view`, `$stateProvider`, `$urlRouterProvider`
+ 4. Second module and menu, `href` vs. `ui-sref` attributes
+ 5. [Hashtag in URLs and html5Mode](http://stackoverflow.com/q/14319967/3780766)
+ 6. Error handling

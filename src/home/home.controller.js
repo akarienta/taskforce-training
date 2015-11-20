@@ -5,7 +5,6 @@
         .module('tf-training.home')
         .controller('HomeController', HomeController);
 
-    HomeController.$inject = ['$location', '$log'];
     function HomeController($location, $log) {
 
         // private fields
