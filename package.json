@@ -1,0 +1,11 @@
+{
+  "name": "taskforce-training",
+  "version": "1.0.0",
+  "description": "Example project for front-end training in TaskForce.",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-server-livereload": "^1.5.4",
+    "gulp-util": "^3.0.7"
+  }
+}
