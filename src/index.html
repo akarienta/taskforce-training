@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <title>TaskForce Training</title>
 </head>
-<body ng-app="tf-training" ng-controller="HomeController as vm">
+<body ng-app="tf-training" ng-controller="HomeController as vm" ng-strict-di>
 
 <h1>{{vm.title}}</h1>
+<p>Your host is: <code>{{vm.location.host()}}</code></p>
+<p>Your port is: <code>{{vm.location.port()}}</code></p>
+<h2>The result is {{vm.getSum()}}</h2>
 <img src="images/gulp.png" alt="Gulp Logo"/>
 
 <!-- bower -->

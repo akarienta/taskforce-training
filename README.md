@@ -31,3 +31,7 @@ This project was used for front-end training in TaskForce. Everybody can use it 
 ## The first controller
  1. Creation of `home.module.js` and `home.controller.js` files, integration into the project
  2. [Differnce between "controller as" and "$scope" syntax](http://codetunnel.io/angularjs-controller-as-or-scope)
+ 3. Directive `ng-strict-di`, [dependency injection](https://docs.angularjs.org/guide/di), dependency annotation
+ 4. Building, security, speed etc. - example of tools: `ng-annotate`, `gulp-minify`, `gulp-uglify`, `gulp-concat` and `wiredep`
+ 5. Private variables, functions, private functions, closures, [JSDoc](http://usejsdoc.org)
+ 6. [JavaScript automatic type conversion](http://www.sitepoint.com/automatic-type-conversion), difference between `==` and `===`
