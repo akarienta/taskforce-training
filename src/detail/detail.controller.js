@@ -11,7 +11,7 @@
         var vm = this;
 
         // fields
-        vm.loaded = angular.isDefined($stateParams.id) ? false : true;
+        vm.loaded = !angular.isDefined($stateParams.id);
         vm.pokemons = PokedexService.getPokemons();
         vm.selectedPokemon = {};
         vm.pokemonDetail = {};
@@ -25,12 +25,13 @@
         ////////////
 
         function loadPokemon() {
-            vm.loaded = false;
             var id = isPokemonSelected() ? vm.selectedPokemon.id : $stateParams.id;
 
             if (angular.isUndefined(id)) {
                 return;
             }
+
+            vm.loaded = false;
 
             PokemonService.getPokemon(id)
                 .then(function (data) {

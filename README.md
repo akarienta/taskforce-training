@@ -12,6 +12,8 @@ This project was used for front-end training in TaskForce. Everybody can use it 
     1. [Data Factories](#data-factories) (~30min)
     1. [Page Loading and Promises](#page-loading-and-promises) (~45min, advanced)
     1. [Custom Filters and Directives](#custom-filters-and-directives) (~45min, advanced)
+ 1. [CSS Preprocessors Part ](#css-preprocessorspart )
+    1. [Most Important CSS Selectors and Attributes](#most-important-css-selectors-and-attributes)
 
 ## AngularJS Part
 
@@ -28,7 +30,7 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  1. Project kick off with `npm init`
  1. Installation of packages  `gulp`, `gulp-load-plugins` and `gulp-util`
  1. [Semver](http://semver.org) introduction, [difference between tilda (~) and caret (^)](https://nodesource.com/blog/semver-tilde-and-caret)
- 1.  The first Gulp task
+ 1. The first Gulp task
  1. Package `gulp-server-livereload` addition, work with documentation, `index.html` creation, image addition, livereload demonstration
 
 ### Bower and AngularJS Installation
@@ -86,3 +88,15 @@ This project was used for front-end training in TaskForce. Everybody can use it 
          - [Build custom directives with AngularJS](http://www.ng-newsletter.com/posts/directives.html)
          - [A Practical Guide to AngularJS Directives](http://www.sitepoint.com/practical-guide-angularjs-directives)
          - [Creating Custom AngularJS Directives Series - Part 6: Using Controllers](http://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-6-using-controllers)
+
+## CSS Preprocessors Part
+
+### Most Important CSS Selectors and Attributes
+###### ~30min
+ 1. Browser consitence, installation of [CSS normalization](https://github.com/necolas/normalize.css)
+ 1. Practising [selectors](http://www.w3schools.com/cssref/css_selectors.asp):
+    - `.a.b` vs. `.a .b`
+    - `.a` vs `#a`
+    - `.a .b` vs. `.a, .b`
+    - `.a .b` vs. `.a > b.`
+    - `.a ~ .b` vs. `.a + .b`

@@ -8,6 +8,6 @@
 </select>
 
 <div ng-if="!vm.loaded" ng-include="'core/loading-bar.html'"></div>
-<div ng-if="vm.loaded">
+<div ng-if="vm.loaded && vm.isPokemonSelected()">
     <pokemon data="vm.pokemonDetail"></pokemon>
 </div>

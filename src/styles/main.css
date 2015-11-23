@@ -1,0 +1,54 @@
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m {
+    background-color: lavender;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* class vs inside */
+/**********************************/
+.a.e {
+    background-color: red;
+}
+
+.a .e {
+    background-color: chocolate;
+}
+
+/* class vs id */
+/**********************************/
+#f {
+    background-color: blueviolet;
+}
+
+.f {
+    background-color: blue;
+}
+
+/* inside vs group */
+/**********************************/
+.b .h {
+    background-color: antiquewhite;
+}
+
+.b, .h {
+    background-color: darkkhaki;
+}
+
+/* inside vs 1st level inside */
+.demo div {
+    border: 1px solid black;
+}
+
+.demo > div {
+    border: 2px dashed orange;
+}
+
+/* siblings */
+/**********************************/
+.l ~ .k {
+    background-color: lightgreen;
+}
+
+.k +.l {
+    background-color: mediumseagreen;
+}
