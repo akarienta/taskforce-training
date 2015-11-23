@@ -5,32 +5,23 @@
         .module('tf-training.home')
         .controller('HomeController', HomeController);
 
-    function HomeController($location, $log) {
+    function HomeController(PokedexService) {
 
         // private fields
         var vm = this;
-        var one = 1;
-        var two = '1';
 
         // fields
-        vm.title = 'Hello Gulp!';
-        vm.location = $location;
+        vm.pokemons = [];
 
-        // methods
-        vm.getSum = getSum;
-
-        ////////////
-
-        function getSum() {
-            __log('Value comparsion: ' + (one === two));
-            return one + two;
-        }
+        __init();
 
         ////////////
 
         /** @private */
-        function __log(msg) {
-            $log.info('--- ' + msg);
+        function __init() {
+            PokedexService.getPokemons().then(function(data) {
+               vm.pokemons = data;
+            });
         }
 
     } // controller function end

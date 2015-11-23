@@ -1,5 +1,19 @@
-<h1>{{vm.title}}</h1>
-<p>Your host is: <code>{{vm.location.host()}}</code></p>
-<p>Your port is: <code>{{vm.location.port()}}</code></p>
-<h2>The result is {{vm.getSum()}}</h2>
-<img src="images/gulp.png" alt="Gulp Logo"/>
+<h1>Pokemons</h1>
+
+<label for="search">Searching</label>
+<input id="search" type="text" ng-model="search.name"/>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="pokemon in vm.pokemons | orderBy:'id' | filter:search | limitTo:'10'">
+            <td>{{pokemon.name}}</td>
+            <td>{{pokemon.id}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -3,7 +3,8 @@
 
     angular
         .module('tf-training.home', [
-            'ui.router'
+            'ui.router',
+            'tf-training.core'
         ])
         .config(config);
 
