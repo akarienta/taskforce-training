@@ -11,6 +11,7 @@
     <nav>
         <ul>
             <li><a ui-sref="home">Home</a></li>
+            <li><a ui-sref="detail">Detail</a></li>
             <li><a ui-sref="about">About</a></li>
         </ul>
     </nav>
@@ -25,14 +26,18 @@
 <!-- app -->
 <script src="app.module.js"></script>
 <script src="core/core.module.js"></script>
-<script src="core/pokedex.factory.js"></script>
+<script src="core/pokedex.service.js"></script>
 <script src="core/core.controller.js"></script>
+<script src="core/first2upper.filter.js"></script>
 <script src="home/home.module.js"></script>
 <script src="home/home.controller.js"></script>
 <script src="about/about.module.js"></script>
 <script src="about/about.controller.js"></script>
 <script src="error/error.module.js"></script>
 <script src="error/error.controller.js"></script>
+<script src="detail/detail.module.js"></script>
+<script src="detail/pokemon.service.js"></script>
+<script src="detail/detail.controller.js"></script>
 
 </body>
 </html>

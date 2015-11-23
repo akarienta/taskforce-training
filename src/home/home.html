@@ -1,6 +1,6 @@
 <h1>Pokemons</h1>
 
-<label for="search">Searching</label>
+<label for="search">Search</label>
 <input id="search" type="text" ng-model="search.name"/>
 
 <table>
@@ -12,7 +12,7 @@
     </thead>
     <tbody>
         <tr ng-repeat="pokemon in vm.pokemons | orderBy:'id' | filter:search | limitTo:'10'">
-            <td>{{pokemon.name}}</td>
+            <td><a ui-sref="detail_id({id: pokemon.id})">{{pokemon.name | first2upper}}</a></td>
             <td>{{pokemon.id}}</td>
         </tr>
     </tbody>

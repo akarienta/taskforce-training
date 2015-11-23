@@ -44,6 +44,9 @@
                     $log.info('PokedexService.getPokemons() - Success');
                     data.pokemons = response.data.pokemon;
                     data.pokemons.forEach(__addId);
+                    data.pokemons.sort(function (a, b) {
+                        return a.id - b.id;
+                    });
                 }, function (response) {
                     $log.error('PokedexService.getPokemons() - Error', response.data)
                 });
