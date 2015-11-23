@@ -81,4 +81,8 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  1. [Custom filter](https://docs.angularjs.org/guide/filter)
  1. Detail module
  1. Parameters in URL
- 1. [Custom directive](https://docs.angularjs.org/guide/directive)
+ 1. [Custom directive](https://docs.angularjs.org/guide/directive) - ways of binding (`@`, `=` and `&`), restrictions, `link` and `compile` functions, usage, directive controllers
+     - Further study:
+         - [Build custom directives with AngularJS](http://www.ng-newsletter.com/posts/directives.html)
+         - [A Practical Guide to AngularJS Directives](http://www.sitepoint.com/practical-guide-angularjs-directives)
+         - [Creating Custom AngularJS Directives Series - Part 6: Using Controllers](http://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-6-using-controllers)

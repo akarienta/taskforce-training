@@ -9,24 +9,5 @@
 
 <div ng-if="!vm.loaded" ng-include="'core/loading-bar.html'"></div>
 <div ng-if="vm.loaded">
-    <table>
-        <thead>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Attack</th>
-            <th>Defense</th>
-            <th>HP</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>{{vm.pokemonDetail.national_id}}</td>
-            <td>{{vm.pokemonDetail.name}}</td>
-            <td>{{vm.pokemonDetail.attack}}</td>
-            <td>{{vm.pokemonDetail.defense}}</td>
-            <td>{{vm.pokemonDetail.hp}}</td>
-        </tr>
-        </tbody>
-    </table>
+    <pokemon data="vm.pokemonDetail"></pokemon>
 </div>
