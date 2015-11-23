@@ -1,4 +1,4 @@
-(function() {
+(function () {
     'use strict';
 
     angular
@@ -11,19 +11,8 @@
         var vm = this;
 
         // fields
-        vm.pokemons = [];
+        vm.pokemons = PokedexService.getPokemons();
 
-        __init();
+    }
 
-        ////////////
-
-        /** @private */
-        function __init() {
-            PokedexService.getPokemons().then(function(data) {
-               vm.pokemons = data;
-            });
-        }
-
-    } // controller function end
-
-})(); // closure function end
+})();

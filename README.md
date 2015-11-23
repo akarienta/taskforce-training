@@ -53,3 +53,9 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  1. [Limiting visible result](https://docs.angularjs.org/api/ng/filter/limitTo) - pipes and filters
  1. Modification of data got from API - adding Pokemon ID
  1. [Ordering data](https://docs.angularjs.org/api/ng/filter/orderBy), [searching](https://docs.angularjs.org/api/ng/filter/filter), pipes order
+
+### Page Loading and Promises
+ 1. Adding simple page loading indicator, [includes](http://www.w3schools.com/angular/angular_includes.asp)
+ 1. `ui-view` and `ng-if` directives doesn't work together for AngularJS 1.3.15 and UI Router 0.2.14
+ 1. Loading data before appliacation - don't borther with async services
+ 1. Difference between `ng-if` and `ng-show`
