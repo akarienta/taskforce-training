@@ -12,8 +12,8 @@ This project was used for front-end training in TaskForce. Everybody can use it 
     1. [Data Factories](#data-factories) (~30min)
     1. [Page Loading and Promises](#page-loading-and-promises) (~45min, advanced)
     1. [Custom Filters and Directives](#custom-filters-and-directives) (~45min, advanced)
- 1. [CSS Preprocessors Part ](#css-preprocessorspart )
-    1. [Most Important CSS Selectors and Attributes](#most-important-css-selectors-and-attributes)
+ 1. [CSS Preprocessors Part ](#css-preprocessors-part )
+    1. [Most Important CSS Selectors and Attributes](#most-important-css-selectors-and-attributes) (~30min)
 
 ## AngularJS Part
 
@@ -100,3 +100,6 @@ This project was used for front-end training in TaskForce. Everybody can use it 
     - `.a .b` vs. `.a, .b`
     - `.a .b` vs. `.a > b.`
     - `.a ~ .b` vs. `.a + .b`
+ 1. Box model attributes - `margin`, `padding` and `border`, and `border-box` vs. `content-box`
+ 1. [Block vs. inline elements](http://www.w3schools.com/html/html_blocks.asp)
+ 1. [Can I use?](http://caniuse.com), [Browser prefixes](http://shouldiprefix.com), `gulp-autoprefixer`
