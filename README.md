@@ -15,6 +15,7 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  1. [CSS Preprocessors Part ](#css-preprocessors-part )
     1. [Most Important CSS Selectors and Attributes](#most-important-css-selectors-and-attributes) (~30min)
     1. [Layout and Positioning](#layout-and-positioning) (~30min)
+    1. [SASS Basics](#sass-basics) (~30min)
 
 ## AngularJS Part
 
@@ -115,3 +116,15 @@ This project was used for front-end training in TaskForce. Everybody can use it 
      - [Learn CSS Layout](http://learnlayout.com/box-model.html)
      - [HTML Layouts](http://www.w3schools.com/html/html_layout.asp)
      - [Learn CSS Positioning in Ten Steps](Learn CSS Positioning in Ten Steps)
+
+### SASS Basics
+###### ~30min
+ 1. [What is CSS preprocessor](http://vanseodesign.com/css/css-preprocessors)
+ 1. SASS vs. SCSS - online conversion [SASS Meister](http://sassmeister.com)
+ 1. [Prerequisites](http://sass-lang.com/install)
+    - [Ruby Installer](http://rubyinstaller.org)
+    - RubyGem [`sass`](https://rubygems.org/gems/sass)
+ 1. Adding SASS into Gulp - npm package `gulp-ruby-sass`
+ 1. Source maps - npm package `gulp-sourcemaps`
+ 1. [Basics](http://sass-lang.com/guide) - variables, nesting, mixins, operators, partials, import, comments
+ 1. [The biggest concurrent - LESS](http://lesscss.org), [Why you should use SASS](http://www.zingdesign.com/less-vs-sass-its-time-to-switch-to-sass), [others](https://github.com/showcases/css-preprocessors)

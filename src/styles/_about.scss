@@ -1,0 +1,56 @@
+.a, .b, .c, .d {
+  width: 33.3333333333%;
+  height: $div-height;
+  float: left;
+
+  & code {
+    font-size: $div-height/4;
+    font-weight: bold;
+  }
+}
+
+.a {
+  position: static;
+  background-color: $color-1;
+
+  code {
+    @include rbCorner;
+  }
+}
+
+.b {
+  position: relative;
+  background-color: $color-2;
+  top: $div-height/4;
+
+  code {
+    @include centerXY($color-4);
+  }
+}
+
+.c {
+  position: relative;
+  background-color: $color-3;
+
+  code {
+    @include rbCorner;
+  }
+
+}
+
+.d {
+  position: fixed;
+  background-color: $color-4;
+  top: 0;
+  right: 0;
+  z-index: $z-index-d;
+
+  code {
+    @include centerXY($color-2);
+  }
+}
+
+.e {
+  position: relative;
+  z-index: $z-index-e;
+}
