@@ -1,27 +1,62 @@
+.a, .b, .c, .d {
+    width: 33.3333333333%;
+    height: 200px;
+    float: left;
+}
+
+.a code, .b code, .c code, .d code {
+    font-size: 50px;
+    font-weight: bold;
+}
+
 .a {
-    width: 500px;
+    position: static;
     background-color: cornflowerblue;
-    margin: 20px;
-    padding: 40px;
-    box-sizing: border-box;
-    transform: rotate(30deg);
 }
 
 .b {
-    background-color: beige;
+    background-color: yellowgreen;
+    position: relative;
+    top: 50px;
 }
 
 .c {
-    background-color: violet;
-    clear: both;
+    position: relative;
+    background-color: crimson;
 }
 
 .d {
-    background-color: yellowgreen;
-    display: inline;
+    position: fixed;
+    background-color: yellow;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
 
 .e {
-    background-color: crimson;
-    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.a code {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.b code, .d code {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.c code {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.d code {
+    z-index: 2;
 }

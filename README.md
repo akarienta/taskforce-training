@@ -14,6 +14,7 @@ This project was used for front-end training in TaskForce. Everybody can use it 
     1. [Custom Filters and Directives](#custom-filters-and-directives) (~45min, advanced)
  1. [CSS Preprocessors Part ](#css-preprocessors-part )
     1. [Most Important CSS Selectors and Attributes](#most-important-css-selectors-and-attributes) (~30min)
+    1. [Layout and Positioning](#layout-and-positioning) (~30min)
 
 ## AngularJS Part
 
@@ -103,3 +104,14 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  1. Box model attributes - `margin`, `padding` and `border`, and `border-box` vs. `content-box`
  1. [Block vs. inline elements](http://www.w3schools.com/html/html_blocks.asp)
  1. [Can I use?](http://caniuse.com), [Browser prefixes](http://shouldiprefix.com), `gulp-autoprefixer`
+
+### Layout and Positioning
+###### ~30min
+ 1. Layout - attributes [`float` and `clear`](http://www.w3schools.com/css/css_float.asp)
+ 1. Positions -  [`absolute` vs. `relative`](http://www.w3schools.com/cssref/pr_class_position.asp),
+ 1. [Lorem Ipsum](http://www.lipsum.com), [HTML-Ipsum](http://html-ipsum.com)
+ 1. Attribute `z-index` and positioning
+ 1. Further study:
+     - [Learn CSS Layout](http://learnlayout.com/box-model.html)
+     - [HTML Layouts](http://www.w3schools.com/html/html_layout.asp)
+     - [Learn CSS Positioning in Ten Steps](Learn CSS Positioning in Ten Steps)
