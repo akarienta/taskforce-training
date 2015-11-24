@@ -16,6 +16,7 @@ This project was used for front-end training in TaskForce. Everybody can use it 
     1. [Most Important CSS Selectors and Attributes](#most-important-css-selectors-and-attributes) (~30min)
     1. [Layout and Positioning](#layout-and-positioning) (~30min)
     1. [SASS Basics](#sass-basics) (~30min)
+    1. [Advanced SASS Topics](#advanced-sass-topics) (~30min, advanced)
 
 ## AngularJS Part
 
@@ -126,5 +127,12 @@ This project was used for front-end training in TaskForce. Everybody can use it 
     - RubyGem [`sass`](https://rubygems.org/gems/sass)
  1. Adding SASS into Gulp - npm package `gulp-ruby-sass`
  1. Source maps - npm package `gulp-sourcemaps`
- 1. [Basics](http://sass-lang.com/guide) - variables, nesting, mixins, operators, partials, import, comments
+ 1. [Basics](http://sass-lang.com/guide) - variables, nesting, placeholder selector, mixins, operators, partials, import, comments
  1. [The biggest concurrent - LESS](http://lesscss.org), [Why you should use SASS](http://www.zingdesign.com/less-vs-sass-its-time-to-switch-to-sass), [others](https://github.com/showcases/css-preprocessors)
+
+### Advanced SASS Topics
+###### ~30min (advanced)
+ 1. [Control directives](http://thesassway.com/intermediate/if-for-each-while) - `@if`, `@for`, `@each` and `@while`
+ 1. [Built-in functions](http://sass-lang.com/documentation/Sass/Script/Functions.html)
+ 1. Modificator `!default`
+ 1. [Custom functions](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#function_directives)

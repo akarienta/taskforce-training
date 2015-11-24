@@ -11,7 +11,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('serve', ['styles'], function () {
-    gulp.watch(['src/styles/main.scss'], ['styles']);
+    gulp.watch(['src/styles/**/*.scss'], ['styles']);
 
     gulp.src(['src', 'bower_components', '.tmp'])
         .pipe($.serverLivereload({

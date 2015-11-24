@@ -1,17 +1,52 @@
-.a, .b, .c, .d {
-  width: 33.3333333333%;
-  height: $div-height;
-  float: left;
+@each $div in a, b, c, d {
+  .#{$div} {
+    width: 33.3333333333%;
+    height: $div-height;
+    float: left;
+  }
 
-  & code {
+  .#{$div} code {
     font-size: $div-height/4;
     font-weight: bold;
   }
 }
 
+ul.demo {
+  $value: 0;
+
+  @for $i from 0 through 8 {
+    li.p-#{$i + 1} {
+      margin-left: $value;
+      @if ($i <= 3) {
+        $value: $value + $margin;
+      } @else {
+        $value: $value - $margin;
+      }
+    }
+  }
+}
+
+ul.demo-2 {
+  $value: $margin*4;
+  $i: 0;
+
+  @while $value != 0 {
+    li.p-#{$i + 1} {
+      margin-left: $value;
+      $value: $value - $margin;
+      $i: $i + 1;
+    }
+  }
+}
+
 .a {
   position: static;
-  background-color: $color-1;
+
+  $color-1: black !default;
+
+  @if global-variable-exists(color-1) {
+    background-color: $color-1;
+  }
 
   code {
     @include rbCorner;
@@ -24,7 +59,7 @@
   top: $div-height/4;
 
   code {
-    @include centerXY($color-4);
+    @include centerXY;
   }
 }
 
@@ -46,7 +81,7 @@
   z-index: $z-index-d;
 
   code {
-    @include centerXY($color-2);
+    @include centerXY(modColor($color-2));
   }
 }
 

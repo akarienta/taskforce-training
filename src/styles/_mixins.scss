@@ -1,10 +1,13 @@
 // center element horizontally and vertically
-@mixin centerXY($color) {
+@mixin centerXY($color: null) {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
-  color: $color;
+
+  @if ($color != null) {
+    color: $color;
+  }
 }
 
 // places elements into right bottom corner
@@ -12,4 +15,8 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+@function modColor($color) {
+  @return darken($color, 20%);
 }
