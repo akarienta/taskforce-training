@@ -15,8 +15,9 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  1. [CSS Preprocessors Part ](#css-preprocessors-part )
     1. [Most Important CSS Selectors and Attributes](#most-important-css-selectors-and-attributes) (~30min)
     1. [Layout and Positioning](#layout-and-positioning) (~30min)
-    1. [SASS Basics](#sass-basics) (~30min)
-    1. [Advanced SASS Topics](#advanced-sass-topics) (~30min, advanced)
+    1. [SASS Basics](#sass-basics) (~40min)
+    1. [Advanced SASS Topics](#advanced-sass-topics) (~20min, advanced)
+    1. [Responsive Web Design](#responsive-web-design) (~20min)
 
 ## AngularJS Part
 
@@ -119,7 +120,7 @@ This project was used for front-end training in TaskForce. Everybody can use it 
      - [Learn CSS Positioning in Ten Steps](Learn CSS Positioning in Ten Steps)
 
 ### SASS Basics
-###### ~30min
+###### ~40min
  1. [What is CSS preprocessor](http://vanseodesign.com/css/css-preprocessors)
  1. SASS vs. SCSS - online conversion [SASS Meister](http://sassmeister.com)
  1. [Prerequisites](http://sass-lang.com/install)
@@ -131,8 +132,15 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  1. [The biggest concurrent - LESS](http://lesscss.org), [Why you should use SASS](http://www.zingdesign.com/less-vs-sass-its-time-to-switch-to-sass), [others](https://github.com/showcases/css-preprocessors)
 
 ### Advanced SASS Topics
-###### ~30min (advanced)
+###### ~20min (advanced)
  1. [Control directives](http://thesassway.com/intermediate/if-for-each-while) - `@if`, `@for`, `@each` and `@while`
  1. [Built-in functions](http://sass-lang.com/documentation/Sass/Script/Functions.html)
  1. Modificator `!default`
  1. [Custom functions](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#function_directives)
+
+### Responsive Web Design
+###### ~20min
+ 1. [What is responsive web design](http://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design)
+ 1. [Mobile first vs. desktop first strategy](https://codemyviews.com/blog/mobilefirst)
+ 1. [Media queries](http://www.w3schools.com/cssref/css3_pr_mediaquery.asp) do most of the magic
+ 1. Relative units, [`em` vs. `rem`](https://j.eremy.net/confused-about-rem-and-em), [when you should use px, rem and em](https://css-tricks.com/rems-ems)

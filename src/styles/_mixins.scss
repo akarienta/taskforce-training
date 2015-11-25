@@ -16,7 +16,3 @@
   bottom: 0;
   right: 0;
 }
-
-@function modColor($color) {
-  @return darken($color, 20%);
-}

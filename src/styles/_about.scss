@@ -1,91 +1,43 @@
+html {
+  font-size: $base-size;
+}
+
 @each $div in a, b, c, d {
   .#{$div} {
-    width: 33.3333333333%;
+    position: relative;
+    width: 100%;
     height: $div-height;
     float: left;
+    font-size: $div-size;
+
+    @media screen and (min-width: $S+1) {
+      width: 50%;
+    }
+
+    @media screen and (min-width: $M+1) {
+      width: 25%;
+    }
   }
 
   .#{$div} code {
-    font-size: $div-height/4;
+    font-size: 2rem;
     font-weight: bold;
-  }
-}
-
-ul.demo {
-  $value: 0;
-
-  @for $i from 0 through 8 {
-    li.p-#{$i + 1} {
-      margin-left: $value;
-      @if ($i <= 3) {
-        $value: $value + $margin;
-      } @else {
-        $value: $value - $margin;
-      }
-    }
-  }
-}
-
-ul.demo-2 {
-  $value: $margin*4;
-  $i: 0;
-
-  @while $value != 0 {
-    li.p-#{$i + 1} {
-      margin-left: $value;
-      $value: $value - $margin;
-      $i: $i + 1;
-    }
-  }
-}
-
-.a {
-  position: static;
-
-  $color-1: black !default;
-
-  @if global-variable-exists(color-1) {
-    background-color: $color-1;
-  }
-
-  code {
-    @include rbCorner;
-  }
-}
-
-.b {
-  position: relative;
-  background-color: $color-2;
-  top: $div-height/4;
-
-  code {
     @include centerXY;
   }
 }
 
+.a {
+  background-color: $color-1;
+}
+
+.b {
+  background-color: $color-2;
+}
+
 .c {
-  position: relative;
   background-color: $color-3;
-
-  code {
-    @include rbCorner;
-  }
-
 }
 
 .d {
-  position: fixed;
   background-color: $color-4;
-  top: 0;
-  right: 0;
-  z-index: $z-index-d;
-
-  code {
-    @include centerXY(modColor($color-2));
-  }
-}
-
-.e {
-  position: relative;
-  z-index: $z-index-e;
 }

@@ -4,10 +4,11 @@ $color-2: yellowgreen !default;
 $color-3: crimson !default;
 $color-4: yellow !default;
 
-// z-indexes
-$z-index-d: -1;
-$z-index-e: 1;
-
 // sizes
-$div-height: 200px;
-$margin: 20px;
+$base-size: 16px;
+$div-size: 32px;
+$div-height: 12em !default;
+
+// breakpoints
+$S: 640px !default;
+$M: 1024px !default;
