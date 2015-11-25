@@ -1,6 +1,13 @@
-// app styles
+// foundation styles
 @import 'settings';
-@import 'mixins';
+@import '../../bower_components/foundation/scss/foundation/functions';
+@import '../../bower_components/foundation/scss/foundation';
+
+// app styles
+@import 'app';
+@import 'spinner';
 
 // view styles
+@import 'home';
+@import 'pokemon';
 @import 'about';

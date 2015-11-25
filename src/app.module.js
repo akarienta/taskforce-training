@@ -4,6 +4,7 @@
     angular
         .module('tf-training', [
             'ui.router',
+            'mm.foundation',
             'tf-training.core',
             'tf-training.home',
             'tf-training.about',

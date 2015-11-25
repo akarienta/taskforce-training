@@ -1,0 +1,15 @@
+.menu-icon {
+  i {
+    font-weight: normal;
+    font-size: $h4-font-size;
+  }
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.main-spinner {
+  padding-top: rem-calc(200px);
+}

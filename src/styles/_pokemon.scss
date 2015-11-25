@@ -1,0 +1,25 @@
+$id-col-width: rem-calc(60px);
+$name-col-width-small: rem-calc(120px);
+$name-col-width-medium-up: 40%;
+
+.pokemon-table {
+  td, th {
+    &:first-child {
+      @media #{$small-only} {
+        width: $id-col-width;
+      }
+    }
+
+    &:nth-child(2) {
+      width: $name-col-width-small;
+
+      @media #{$medium-up} {
+        width: $name-col-width-medium-up;
+      }
+    }
+  }
+}
+
+.pokemon-spinner {
+  padding-top: rem-calc(50px);
+}

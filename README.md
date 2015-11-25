@@ -19,6 +19,7 @@ This project was used for front-end training in TaskForce. Everybody can use it 
     1. [Advanced SASS Topics](#advanced-sass-topics) (~20min, advanced)
     1. [Responsive Web Design](#responsive-web-design) (~20min)
     1. [Frontend Frameworks](#frontend-frameworks) (~20min)
+    1. [ZURB Foundation](#zurb-foundation) (~80min)
 
 ## AngularJS Part
 
@@ -151,3 +152,14 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  1. [What is front-end framework](http://www.awwwards.com/what-are-frameworks-22-best-responsive-css-frameworks-for-web-design.html)
  1. [Responsive Grid system](http://foundation.zurb.com/grid.html)
  1. [Front-end frameworks comparsion](http://usablica.github.io/front-end-frameworks/compare.html)
+
+### ZURB Foundation
+###### ~80min
+ 1. Version and [documentation](http://foundation.zurb.com/sites/docs/v/5.5.3/index.html) overview
+ 1. Installation - bower packages `foundation#5` and [`angular-foundation`](https://pineconellc.github.io/angular-foundation)
+ 1. Files addition: Modernizr, modules, styles
+ 1. [Topbar](http://foundation.zurb.com/sites/docs/v/5.5.3/components/topbar.html) - implementation, hamburger icon, `.active` class
+ 1. [Foundation Icon Fonts](http://zurb.com/playground/foundation-icon-fonts-3) - installation, usage
+ 1. [Media queries](http://foundation.zurb.com/sites/docs/v/5.5.3/media-queries.html), [grid system](http://foundation.zurb.com/sites/docs/v/5.5.3/components/grid.html), rows and columns - implementation
+ 1. [Spinners](https://github.com/jlong/css-spinners) - implementation
+ 1. Settings file

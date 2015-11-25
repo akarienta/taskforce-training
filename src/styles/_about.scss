@@ -1,43 +1,7 @@
-html {
-  font-size: $base-size;
-}
+.about-data {
+  margin-top: rem-calc(20px);
 
-@each $div in a, b, c, d {
-  .#{$div} {
-    position: relative;
-    width: 100%;
-    height: $div-height;
-    float: left;
-    font-size: $div-size;
-
-    @media screen and (min-width: $S+1) {
-      width: 50%;
-    }
-
-    @media screen and (min-width: $M+1) {
-      width: 25%;
-    }
+  strong {
+    margin-bottom: rem-calc(10px);
   }
-
-  .#{$div} code {
-    font-size: 2rem;
-    font-weight: bold;
-    @include centerXY;
-  }
-}
-
-.a {
-  background-color: $color-1;
-}
-
-.b {
-  background-color: $color-2;
-}
-
-.c {
-  background-color: $color-3;
-}
-
-.d {
-  background-color: $color-4;
 }

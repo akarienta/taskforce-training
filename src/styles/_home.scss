@@ -1,0 +1,9 @@
+$id-col-width: rem-calc(60px);
+
+.home-table {
+  td, th {
+    &:last-child {
+      width: $id-col-width;
+    }
+  }
+}

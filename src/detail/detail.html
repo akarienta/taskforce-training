@@ -1,13 +1,26 @@
-<h1>Pokemon Detail</h1>
+<div class="row">
+    <div class="small-12 column">
+        <h1>Pokemon Detail</h1>
+    </div>
+</div>
 
-<label for="pokemon">Pokemon</label>
-<select id="pokemon" ng-model="vm.selectedPokemon"
-        ng-options="'ID ' + pokemon.id + ': ' + (pokemon.name | first2upper) for pokemon in vm.pokemons"
-        ng-change="vm.loadPokemon()">
-    <option value="" ng-if="!vm.isPokemonSelected()">-- Please select --</option>
-</select>
+<div class="row">
+    <div class="small-12 medium-6 large-4 columns">
+        <label><h4>Pokemon</h4>
+            <select ng-model="vm.selectedPokemon"
+                    ng-options="'ID ' + pokemon.id + ': ' + (pokemon.name | first2upper) for pokemon in vm.pokemons"
+                    ng-change="vm.loadPokemon()">
+                <option value="" ng-if="!vm.isPokemonSelected()">-- Please select --</option>
+            </select>
+        </label>
+    </div>
+</div>
 
-<div ng-if="!vm.loaded" ng-include="'core/loading-bar.html'"></div>
-<div ng-if="vm.loaded && vm.isPokemonSelected()">
-    <pokemon data="vm.pokemonDetail"></pokemon>
+<div class="row">
+    <div class="small-12 column">
+        <div ng-if="!vm.loaded" class="pokemon-spinner" ng-include="'core/loading-bar.html'"></div>
+        <div ng-if="vm.loaded && vm.isPokemonSelected()">
+            <pokemon data="vm.pokemonDetail"></pokemon>
+        </div>
+    </div>
 </div>
