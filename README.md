@@ -18,6 +18,7 @@ This project was used for front-end training in TaskForce. Everybody can use it 
     1. [SASS Basics](#sass-basics) (~40min)
     1. [Advanced SASS Topics](#advanced-sass-topics) (~20min, advanced)
     1. [Responsive Web Design](#responsive-web-design) (~20min)
+    1. [Frontend Frameworks](#frontend-frameworks) (~20min)
 
 ## AngularJS Part
 
@@ -144,3 +145,9 @@ This project was used for front-end training in TaskForce. Everybody can use it 
  1. [Mobile first vs. desktop first strategy](https://codemyviews.com/blog/mobilefirst)
  1. [Media queries](http://www.w3schools.com/cssref/css3_pr_mediaquery.asp) do most of the magic
  1. Relative units, [`em` vs. `rem`](https://j.eremy.net/confused-about-rem-and-em), [when you should use px, rem and em](https://css-tricks.com/rems-ems)
+
+### Front-end Frameworks
+###### ~20min
+ 1. [What is front-end framework](http://www.awwwards.com/what-are-frameworks-22-best-responsive-css-frameworks-for-web-design.html)
+ 1. [Responsive Grid system](http://foundation.zurb.com/grid.html)
+ 1. [Front-end frameworks comparsion](http://usablica.github.io/front-end-frameworks/compare.html)
